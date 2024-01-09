@@ -2,6 +2,7 @@ public class Q8_Maximum_Sum_OF_SubArray{
 
     // Time Complexity = O(n)
     // Space Complexity = O(1)
+    // Kedane's algorithm
     
     public static void maximumSubArray(int arr[])
     {
