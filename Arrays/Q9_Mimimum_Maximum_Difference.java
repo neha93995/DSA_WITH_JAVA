@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Arrays;
 
 public class Q9_Mimimum_Maximum_Difference {

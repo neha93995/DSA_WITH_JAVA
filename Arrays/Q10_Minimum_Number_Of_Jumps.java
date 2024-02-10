@@ -1,3 +1,4 @@
+package Arrays;
 public class Q10_Minimum_Number_Of_Jumps {
 
     // Time Complexity O(n^2)
