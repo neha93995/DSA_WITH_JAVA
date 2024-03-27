@@ -1,4 +1,3 @@
-package Arrays;
 // Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
 // There is only one repeated number in nums, return this repeated number.
 
@@ -103,6 +102,6 @@ public class Q11_Find_Duplicate_in_Array{
         int arr[] = {1,2,3,4,5,1};
 
         
-        System.out.println(findDuplicate3(arr));
+        System.out.println(findDuplicate2(arr));
     }
 }

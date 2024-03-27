@@ -1,4 +1,3 @@
-package Arrays;
 public class Q14_Find_Maximum_Sum_SubArray{
 
     public static int findSubArray(int []a)

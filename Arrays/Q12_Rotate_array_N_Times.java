@@ -1,4 +1,3 @@
-package Arrays;
 import java.util.Arrays;
 
 public class Q12_Rotate_array_N_Times {

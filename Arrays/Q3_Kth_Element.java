@@ -1,4 +1,3 @@
-package Arrays;
 import java.util.Arrays;
 
 public class Q3_Kth_Element{

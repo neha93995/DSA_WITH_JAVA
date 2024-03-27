@@ -67,7 +67,8 @@ public class HCF{
     }
     public static void main(String[] args) {
 
-        System.out.println(highestCommonFactor3(15, 30));
+        System.out.println(highestCommonFactor3(8, 10));
         
     }
 }
+

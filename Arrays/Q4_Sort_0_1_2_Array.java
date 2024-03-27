@@ -1,4 +1,3 @@
-package Arrays;
 import java.util.Arrays;
 
 public class Q4_Sort_0_1_2_Array {

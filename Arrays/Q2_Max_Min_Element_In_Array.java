@@ -1,4 +1,3 @@
-package Arrays;
 public class Q2_Max_Min_Element_In_Array{
 
     public static void min_max(int arr[])

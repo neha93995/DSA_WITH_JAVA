@@ -1,4 +1,3 @@
-package Arrays;
 import java.util.Arrays;
 
 public class Q7_Cyclically_Rotate_Array_One_Time {
