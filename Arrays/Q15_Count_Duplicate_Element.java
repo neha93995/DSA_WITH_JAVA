@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Set;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class Q15_Count_Duplicate_Element{
 
