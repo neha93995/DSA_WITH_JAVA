@@ -71,11 +71,14 @@ public class LargestRepeatedElement {
 
     public static void main(String[] args) {
 
-        int arr[] = { 1, 2, 3, 3, 3, 4, 4, 5,5 };
+        int arr[] = { 5,5,3,3,2,1 };
 
         // System.out.println(largestRepeatedElement(arr));
         // largestRepeatedElement2(arr);
-        System.out.println(smallestRepeatedElement3(arr));
+        // System.out.println(smallestRepeatedElement3(arr));
+        int z=5;
+        z+=++z+z++;
+        System.out.println(z);
 
     }
 }

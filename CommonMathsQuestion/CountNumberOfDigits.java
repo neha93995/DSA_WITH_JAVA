@@ -13,6 +13,6 @@ public class CountNumberOfDigits {
     }
 
     public static void main(String[] args) {
-        System.out.println(countNumberOfDigits(122333414));
+        System.out.println(countNumberOfDigits(1223334140));
     }
 }

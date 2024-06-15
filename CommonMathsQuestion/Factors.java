@@ -13,6 +13,6 @@ public class Factors {
     }
 
     public static void main(String[] args) {
-        findFactors(40);
+        findFactors(25);
     }
 }

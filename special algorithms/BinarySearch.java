@@ -30,7 +30,7 @@ public class BinarySearch{
     }
 
 
-    // recursive approach
+    // recursive appraoch
     // time Complexity O(log n)
     // space complexity O(log n)
     public static int binarySearch2(int arr[], int target, int left, int right)
