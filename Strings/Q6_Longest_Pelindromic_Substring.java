@@ -1,6 +1,49 @@
-public class Q6_Longest_Pelindromic_Substring {
 
-    public static String longestPelindromicSubString(String s)
+interface Hello{
+    static void say(){
+        System.out.println("static method inside the interface");
+    }
+    static void saysay(){
+        System.out.println("sdfalskdjfaljsdkf");
+    }
+    default void bye()
+    {
+        System.out.println("bye bye");
+    }
+}
+
+class A{
+    final void finalMethod()
+    {
+        System.out.println("Final method");
+    } 
+}
+
+class B extends A{
+    final void finalSubClassMethod()
+    {
+        System.out.println("Final sub class method");
+    }
+}
+
+
+public class Q6_Longest_Pelindromic_Substring implements Hello {
+
+
+    Q6_Longest_Pelindromic_Substring()
+    {
+        System.out.println("Hello");
+        int a = 10;
+        if(a==1)
+        {
+            return ;
+            
+        }
+        
+        System.out.println("Hello");
+    }
+
+    public  String longestPelindromicSubString(String s)
     {
 
         String res="";
@@ -24,6 +67,8 @@ public class Q6_Longest_Pelindromic_Substring {
         return res;
     }
 
+    
+
     public static boolean isPelindromic(String s)
     {
         int i=0, j=s.length()-1;
@@ -39,8 +84,19 @@ public class Q6_Longest_Pelindromic_Substring {
         return true;
     }
 
-    public static void main(String[] args) {
+    final public static void main(String[] args) {
+        
+        Q6_Longest_Pelindromic_Substring  asdf = new Q6_Longest_Pelindromic_Substring ();
+
         String s = "madam";
-        System.out.println(longestPelindromicSubString(s));
+        Object obj = new Object();
+        Hello.say();
+        Hello.saysay();
+        asdf.bye();
+        B b = new B();
+        b.finalMethod();
+        b.finalSubClassMethod();;
+        // System.out.println(longestPelindromicSubString(s));
     }
 }
+
